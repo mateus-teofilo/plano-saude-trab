@@ -67,9 +67,55 @@ body {
     font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.calculadora{
+.card-home {
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
+    padding-left: 2.2em;
+    padding-right: 2.2em;
+    margin-top: 3.5em;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: var(--color-azul);
+    border-radius: 10px;
+    color: var(--color-branco);
 }
-.input{
-    gap: 3.5em;
+.card-home a{
+    color: var(--color-branco);
+    font-size: 16pt;
+}
+.card-plano{
+    background-color: var(--color-azul);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-plano label{
+    color: var(--color-branco);
+    margin: 10px;
+}
+.card-plano input{
+    width: 50%;
+    margin-top: 10px;
+    padding: 14px;
+    border: none;
+    font-size: 15pt;
+    gap: 4.6em;
+}   
+.card-plano button{
+    width: 50%;
+    border: none;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.card-plano h2{
+    margin-top: 2.5em;
+}
+.card-plano a{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: var(--color-branco);
 }

@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="beehealth.css">
-    <link rel="stylesheet" href="beehealth.js">
+    <script src="segunda-ten.js"></script>
     <link href="bootstrap-5.3.2-dist/css/bootstrap.css">
 </head>
+
 <body>
-    <div class="calculadora">
-            <label for="name">Nome</label>
-            <input type="text" name="nome" id="name" placeholder="Digite seu nome">
-            <label for="idade">Idade</label>
-            <input type="number" name="idade" id="idade" placeholder="Digite sua idade">
-            <label for="peso">Peso</label>
-            <input type="number" name="peso" id="peso" placeholder="Digite seu peso">
-            <label for="altura">Altura</label>
-            <input type="number" name="altura" id="altura" placeholder="Digite sua altura">
-            <button onclick="calcular()">calcular</button>
-            <h2 id="resultado"></h2>
+    <div class="card-plano">
+        <label for="name">Nome</label>
+        <input type="text" name="nome" id="name" placeholder="Digite seu nome">
+        <label for="idade">Idade</label>
+        <input type="number" name="idade" id="idade" placeholder="Digite sua idade">
+        <label for="peso">Peso</label>
+        <input type="number" name="peso" id="peso" placeholder="Digite seu peso">
+        <label for="altura">Altura</label>
+        <input type="number" name="altura" id="altura" placeholder="Digite sua altura">
+        <button onclick="calcular()">calcular</button>
+        <h1>Operadora A valores</h1>
+        <h2>Plano Basico em reais por mês</h2>
+        <h3 id="result-planos"></h3>
+        <h2>Plano Standard em reais por mês</h2>
+        <h3 id="plano-standard"></h3>
+        <h2>Plano Premium em reais por mês</h2>
+        <h3 id="plano-premium"></h3> 
+        <a href="beehealth.html">voltar</a>
     </div>
+   
 </body>
+
 </html>
